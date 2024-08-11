@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       animation: {
-        "slide-logos": "slide-logos 60s linear infinite",
+        "slide-logos": "slide-logos 30s linear infinite",
       },
       keyframes: {
         "slide-logos": {

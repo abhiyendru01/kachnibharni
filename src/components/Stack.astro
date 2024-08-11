@@ -1,66 +1,63 @@
 ---
-/* 
-    This component was  
-    provided by "AstroUI" free and open source AstroUI components library.
-    Link: https://astroui.vercel.app/
-*/
-import cv from "@cv";
 import Image from "astro/components/Image.astro";
 
 /* 
-    Logo were provided by "svgl" free and open source icons library.
+    Logos were provided by "svgl" free and open source icons library.
     Link: https://svgl.app/
 */
-const {
-  stack: { sectionLabel, logos },
-} = cv;
+const logos = [
+  { src: "/logos/astro.svg", alt: "AstroJS Logo" },
+  { src: "/logos/vercel.svg", alt: "Vercel Logo" },
+  { src: "/logos/tailwindcss.svg", alt: "TailwindCSS Logo" },
+  { src: "/logos/typescript.svg", alt: "TypeScript Logo" },
+];
 ---
 
 <section
-  class="relative w-full text-center flex flex-col justify-center items-center gap-10 max-w-3xl px-4 py-20 sm:py-24 pointer-events-none"
+  class="relative w-full text-center flex flex-col justify-center items-center gap-10 px-4 py-20 sm:py-24 pointer-events-none"
 >
   <h2
-    class="absolute top-[-20px] h-10 flex items-center px-2 py-1 rounded-full perfect-shadow text-foreground text-sm sm:text-normal md:text-lg tracking-tighter bg-card"
+    class="w-full max-w-xl sm:text-center text sm:text-xl md:text-2xl font-medium tracking-tighter text-pretty"
   >
-    {sectionLabel}
+    My Stack
   </h2>
   <div
-    class="w-full h-fit max-w-3xl flex flex-col justify-center select-none overflow-hidden gradient"
+    class="w-full h-fit max-w-xl flex flex-col justify-center select-none overflow-hidden gradient"
   >
     <div class="w-max flex flex-nowrap gap-[4rem] animate-slide-logos">
       {
-        logos
-          .concat(logos)
-          .map((logo) => (
+        logos.concat(logos).map((logo) => (
+          <div class="aspect-square flex items-center justify-center size-20">
             <Image
               src={logo.src}
               alt={logo.alt}
-              width={64}
-              height={864}
+              width={32}
+              height={32}
               loading="eager"
-              class="size-20 object-contain"
+              class="object-contain"
             />
-          ))
+          </div>
+        ))
       }
     </div>
   </div>
-</section>
 
-<style>
-  .gradient {
-    mask: linear-gradient(
-      90deg,
-      transparent,
-      black 20%,
-      black 80%,
-      transparent
-    );
-    webkitmask: linear-gradient(
-      90deg,
-      transparent,
-      black 20%,
-      black 80%,
-      black transparent
-    );
-  }
-</style>
+  <style>
+    .gradient {
+      mask: linear-gradient(
+        90deg,
+        transparent,
+        black 20%,
+        black 80%,
+        transparent
+      );
+      webkitmask: linear-gradient(
+        90deg,
+        transparent,
+        black 20%,
+        black 80%,
+        black transparent
+      );
+    }
+  </style>
+</section>

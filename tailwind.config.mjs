@@ -24,6 +24,8 @@ export default {
         },
       },
       colors: {
+        primary: "hsl(var(--primary))",
+        secondary: "hsl(var(--secondary))",
         background: "hsl(var(--background))",
         accent: "hsl(var(--accent))",
         foreground: "hsl(var(--foreground))",

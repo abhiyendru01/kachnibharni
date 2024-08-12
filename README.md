@@ -1,6 +1,6 @@
 # Litefolio - Astro Portfolio Starter Template
 
-This is a free portfolio starter template built with Astro and Tailwind CSS. The portfolio configuration is managed through a `cv.json` file.
+This is a free portfolio starter template built with Astro and Tailwind CSS.
 
 ## Live Demo
 
@@ -90,7 +90,6 @@ Inside of your Astro project, you'll see the following folders and files:
 │   │   └── ...
 │   └── pages/
 │       └── ...
-└── cv.json <---- Portfolio Content
 └── package.json
 ```
 
@@ -102,155 +101,6 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 TailwindCSS is already configured in this repo, so you can start using it without any installation.
 
-## Configuration
-
-To customize your portfolio, edit the `cv.json` file located in the root directory. Here is an example of how the `cv.json` might look:
-
-```json
-{
-  "basics": {
-    "name": "Gonzalo Chalé",
-    "label": "Systems Engineer",
-    "image": "https://github.com/gonzalochale.png",
-    "summary": "This is a starter template web portfolio. It is designed to be a starting point to showcase your work and help you stand out from the crowd. Perfect for developers, designers, and other professionals.",
-    "location": {
-      "city": "Cancún",
-      "countryCode": "MX",
-      "country": "México"
-    }
-  },
-  "connect": {
-      "sectionLabel": "Experience",
-      "socials": [
-        {
-          "network": "X (Formerly Twitter)",
-          "label": "X (Formerly Twitter)",
-          "username": "gonzalochale",
-          "url": "https://x.com/gonzalochale"
-        },
-        {
-          "network": "GitHub",
-          "label": "GitHub",
-          "username": "gonzalochale",
-          "url": "https://github.com/gonzalochale"
-        },
-        {
-          "network": "LinkedIn",
-          "label": "LinkedIn",
-          "username": "gonzalochale",
-          "url": "https://www.linkedin.com/in/gonzalochale/"
-        },
-        {
-          "network": "YouTube",
-          "label": "YouTube",
-          "username": "chalegonzalo",
-          "url": "https://www.youtube.com/@chalegonzalo"
-        }
-      ]
-    },
-  "experience": {
-      "sectionLabel": "Work experience",
-      "jobs": [
-        {
-          "company": "Acme",
-          "position": "Software Engineer",
-          "startDate": "2020-01-01",
-          "endDate": "2024-07-31",
-          "summary": "I worked on the Acme team, where I helped build the Y feature. I was responsible for Z, which involved A, B, and C.",
-          "highlights": [
-            "Developed a new feature for the Acme platform",
-            "Worked on the Y project, which involved A, B, and C",
-            "Collaborated with the Z team to improve the X platform"
-          ]
-        },
-        {
-          "company": "Y (Formerly X)",
-          "position": "Software Engineer",
-          "startDate": "2018-01-01",
-          "endDate": "2019-12-31",
-          "summary": "I worked on the Y team, where I helped build the Z feature. I was responsible for A, which involved B, C, and D.",
-          "highlights": [
-            "Developed a new feature for the Y platform",
-            "Worked on the Z project, which involved B, C, and D",
-            "Collaborated with the A team to improve the Y platform"
-          ]
-        }
-      ]
-    },
-  "stack": {
-    "sectionLabel": "My stack",
-    "logos": [
-      { "src": "/logos/astro.svg", "alt": "AstroJS Logo" },
-      { "src": "/logos/astro.svg", "alt": "AstroJS Logo" },
-      { "src": "/logos/astro.svg", "alt": "AstroJS Logo" },
-      { "src": "/logos/astro.svg", "alt": "AstroJS Logo" },
-      { "src": "/logos/astro.svg", "alt": "AstroJS Logo" },
-      { "src": "/logos/astro.svg", "alt": "AstroJS Logo" },
-      { "src": "/logos/astro.svg", "alt": "AstroJS Logo" },
-      { "src": "/logos/astro.svg", "alt": "AstroJS Logo" },
-      { "src": "/logos/astro.svg", "alt": "AstroJS Logo" },
-      { "src": "/logos/astro.svg", "alt": "AstroJS Logo" }
-    ]
-  },
-  "personalProjects": {
-    "sectionLabel": "Personal projects",
-    "projects": [
-      {
-        "name": "LiteFolio",
-        "description": "This is a starter template web portfolio. It is designed to be a starting point to showcase your work and help you stand out from the crowd. Perfect for developers, designers, and other professionals.",
-        "imageUrl": "/assets/project.png",
-        "projectSocials": [
-          {
-            "network": "GitHub",
-            "label": "GitHub",
-            "url": "https://github.com/gonzalochale/litefolio"
-          },
-          {
-            "network": "Demo",
-            "label": "Demo",
-            "url": "https://litefolio.vercel.app/"
-          }
-        ]
-      },
-      {
-        "name": "LiteFolio",
-        "description": "This is a starter template web portfolio. It is designed to be a starting point to showcase your work and help you stand out from the crowd. Perfect for developers, designers, and other professionals.",
-        "imageUrl": "/assets/project.png",
-        "projectSocials": [
-          {
-            "network": "GitHub",
-            "label": "GitHub",
-            "url": "https://github.com/gonzalochale/litefolio"
-          },
-          {
-            "network": "Demo",
-            "label": "Demo",
-            "url": "https://litefolio.vercel.app/"
-          }
-        ]
-      },
-      {
-        "name": "LiteFolio",
-        "description": "This is a starter template web portfolio. It is designed to be a starting point to showcase your work and help you stand out from the crowd. Perfect for developers, designers, and other professionals.",
-        "imageUrl": "/assets/project.png",
-        "projectSocials": [
-          {
-            "network": "GitHub",
-            "label": "GitHub",
-            "url": "https://github.com/gonzalochale/litefolio"
-          },
-          {
-            "network": "Demo",
-            "label": "Demo",
-            "url": "https://litefolio.vercel.app/"
-          }
-        ]
-      }
-    ]
-  }
-}
-```
-
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any bugs, improvements, or new features.
@@ -259,8 +109,6 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 We would like to express our gratitude to the following open-source projects and their contributors:
 
-- **SVG Icons**: Thank you to [SVGL](https://www.svgl.app) for providing the high-quality SVG icons used in this project.
-- **UI Components**: We appreciate the amazing components from [AstroUI](https://astroui.vercel.app) which helped in building a seamless user interface.
-- **Framework and CSS**: Special thanks to the teams behind [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com) for their incredible work in creating powerful tools for modern web development.
+- **SVG Icons**: Thank you to [SVGL](https://www.svgl.app) and [Radix Icons](https://www.radix-ui.com/icons) for providing the high-quality SVG icons used in this project.
 
 Your contributions to the open-source community are invaluable and greatly appreciated. Thank you for making this project possible!

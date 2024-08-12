@@ -53,7 +53,7 @@ import Image from "astro/components/Image.astro";
   >
     Design, Code, Learn, Repeat.
   </p>
-  <div class="z-10 w-full grid grid-cols-1 md:grid-cols-5 grid-rows-6 gap-5">
+  <div class="z-10 w-full grid grid-cols-1 md:grid-cols-5 grid-rows-6 gap-2">
     <article
       class="overflow-hidden relative bg-dark-card col-span-1 md:col-span-3 md:row-span-2 border h-[300px] border-dark-border rounded-[1rem] flex flex-col lg:flex-row lg:gap-3"
     >
@@ -131,7 +131,7 @@ import Image from "astro/components/Image.astro";
         >
           {
             testimonials.concat(testimonials).map((testimonial) => (
-              <article class="w-full max-w-sm flex flex-col gap-2 items-center justify-center size-20 border bg-background rounded-[1rem] px-4 py-2">
+              <article class="w-full max-w-sm flex flex-col gap-2 items-center justify-center size-20 border border-dark-border bg-background rounded-[1rem] px-4 py-2">
                 <div class="w-full flex items-center justify-start gap-2">
                   {/* <Image
                     src={testimonial.src}

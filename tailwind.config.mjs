@@ -9,10 +9,14 @@ export default {
     extend: {
       animation: {
         "slide-logos": "slide-logos 30s linear infinite",
+        "vertical-slide": "vertical-slide 30s linear infinite forwards",
       },
       keyframes: {
         "slide-logos": {
           to: { transform: "translateX(calc(-50% - 2rem))" },
+        },
+        "vertical-slide": {
+          to: { transform: "translateY(calc(-50% - 2rem))" },
         },
         aurora: {
           from: {
@@ -31,7 +35,9 @@ export default {
         foreground: "hsl(var(--foreground))",
         "muted-foreground": "hsl(var(--muted-foreground))",
         border: "hsl(var(--border))",
+        "dark-border": "hsl(var(--dark-border))",
         card: "hsl(var(--card))",
+        "dark-card": "hsl(var(--dark-card))",
       },
     },
   },

@@ -1,14 +1,14 @@
 # Litefolio - Astro Portfolio Starter Template
 
-This is a free portfolio starter template built with Astro and Tailwind CSS.
+kachni bharni
 
 ## Live Demo
 
-**[litefolio.vercel.app](https://litefolio.vercel.app)**
+
 
 ## Preview
 
-![Astro Portfolio Template by Gonzalo Chalé](public/assets/preview.png)
+
 
 ## Deploy
 
@@ -112,3 +112,4 @@ We would like to express our gratitude to the following open-source projects and
 - **SVG Icons**: Thank you to [SVGL](https://www.svgl.app) and [Radix Icons](https://www.radix-ui.com/icons) for providing the high-quality SVG icons used in this project.
 
 Your contributions to the open-source community are invaluable and greatly appreciated. Thank you for making this project possible!
+# kachnibharni-1

@@ -208,78 +208,38 @@
     </div>
   </div>
 </section>
-
-<section class="bg-background w-full py-16 px-6 sm:py-20">
-  <section class="relative bg-background w-full max-w-screen-2xl text-center flex justify-center items-center px-4 py-20 sm:py-24">
-    <div class="flex flex-col md:flex-row gap-10 w-full max-w-2xl justify-center items-center">
-      
-      <!-- Visual element (could be a product image or design representation) -->
-      <div class="border h-[300px] w-[200px] bg-accent rotate-6 p-4 perfect-shadow">
-        <div class="w-full h-[calc(100%-50px)] bg-cover bg-center" style="background-image: url('/assets/workshop.jpeg');"></div>
-      </div>
-
-      <!-- Textual content for Benefits -->
-      <div class="flex flex-1 flex-col gap-3">
-        
-        <!-- Heading -->
-        <h2 class="w-full text-left text-lg sm:text-2xl md:text-4xl font-medium tracking-tighter text-pretty bg-clip-text text-transparent bg-gradient-to-br from-primary via-foreground to-foreground">
-          Unlock New Opportunities with Kachni Bharni
-        </h2>
-
-        <!-- Description/Introduction -->
-        <p class="w-full max-w-md text-left text-sm sm:text-normal md:text-lg font-normal text-balance mb-6">
-          Kachni Bharni provides a unique platform that empowers artists to organize and host their own events and workshops, creating opportunities for collaboration and growth within the artistic community. Through these events, artists can connect with fellow creators, share knowledge, exchange ideas, and inspire one another. By facilitating these interactive experiences, Kachni Bharni fosters an environment where artists can not only showcase their work but also engage in meaningful dialogues, enhance their skills, and build lasting relationships with peers from around the world.
-        </p>
-
-        <!-- Call-to-Action: Connect or Join Now -->
-        <div class="flex items-center gap-3 mt-8">
-          <a href="https://x.com/gonzalochale" target="_blank" rel="noopener noreferrer" class="relative w-fit flex justify-center items-center px-4 py-2 sm:px-6 sm:py-3 sm:text-lg font-medium text-background bg-primary rounded-full perfect-shadow">
-            Organise Event
-            <div class="z-[-1] bg-gradient-to-b from-secondary via-primary to-primary absolute w-[calc(100%-4px)] h-[calc(100%-4px)] rounded-full border-t-2 border-secondary"></div>
-          </a>
-        </div>
-
-        <div class="flex items-center gap-3 mt-8">
-          <a href="https://x.com/gonzalochale" target="_blank" rel="noopener noreferrer" class="relative w-fit flex justify-center items-center px-4 py-2 sm:px-6 sm:py-3 sm:text-lg font-medium text-background bg-primary rounded-full perfect-shadow">
-            Apply to be a part of existing Event
-            <div class="z-[-1] bg-gradient-to-b from-secondary via-primary to-primary absolute w-[calc(100%-4px)] h-[calc(100%-4px)] rounded-full border-t-2 border-secondary"></div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-</section>
-
-<section class="bg-background w-full py-16 px-6 sm:py-20 relative">
-  <!-- Transparent Container with Blurred Background -->
-  <div class="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat" style="background-image: url('/assets/parentart.jpeg');">
-    <!-- Transparent Overlay with Blur Effect -->
-    <div class="absolute inset-0 bg-black opacity-40 backdrop-blur-lg"></div>
-  </div>
-  <!-- Subscribe Form Container -->
-  <div class="relative z-10 bg-[rgba(0,0,0,0.5)] p-8 sm:p-12 rounded-lg max-w-lg mx-auto text-center">
-    <h2 class="text-2xl sm:text-4xl font-bold text-white mb-6 italic">Subscribe for New Seller Updates</h2>
-    <p class="text-white mb-6 text-lg italic">
-      Stay updated with the latest opportunities and features for new sellers. Join our platform and grow your business today.
+<!-- New Section: Premium Newsletter with Glassmorphism -->
+<section class="relative w-full py-16 px-6 sm:py-24 bg-cover bg-center" style="background-image: url('/assets/artglax.jpeg');">
+  <!-- Transparent Overlay for Background Image -->
+  <div class="absolute inset-0 bg-gradient-to-r from-black to-transparent opacity-60"></div>
+  
+  <!-- Glassmorphism Effect for Newsletter Box -->
+  <div class="relative z-10 max-w-3xl mx-auto text-center p-6 sm:p-8 bg-black bg-opacity-30 backdrop-blur-lg rounded-xl shadow-xl overflow-hidden">
+    <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white leading-tight mb-6 tracking-tight">
+      Join Our Exclusive Art Circle
+    </h2>
+    <p class="text-lg sm:text-xl text-white mb-8 max-w-xl mx-auto leading-relaxed opacity-80">
+      Subscribe to receive curated updates, exclusive invites, and insightful art news delivered right to your inbox. Be part of a community that celebrates artistry and innovation.
     </p>
+    
+    <!-- Newsletter Form -->
+    <form action="#" method="POST" class="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <input 
+        type="email" 
+        name="email" 
+        placeholder="Enter your email address"
+        class="w-full sm:w-96 px-6 py-4 rounded-xl text-white bg-transparent border-2 border-white border-opacity-40 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 transition ease-in-out"
+        required 
+      />
+      <button 
+  type="submit" 
+  class="px-10 py-4 mt-4 sm:mt-0 text-xl font-medium text-white bg-black bg-opacity-20 hover:bg-opacity-30 rounded-full shadow-xl transform transition duration-300 ease-out hover:scale-105"
+>
+  Subscribe Now
+</button>
 
-    <form class="space-y-4">
-      <!-- Full Name Input -->
-      <div>
-        <label for="fullName" class="block text-white text-lg font-semibold mb-2">Full Name</label>
-        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" class="w-full px-4 py-2 rounded-lg text-white bg-transparent border-2 border-white focus:outline-none focus:border-primary placeholder:text-white placeholder-opacity-70" required />
-      </div>
-
-      <!-- Email Input -->
-      <div>
-        <label for="email" class="block text-white text-lg font-semibold mb-2">Email Address</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" class="w-full px-4 py-2 rounded-lg text-white bg-transparent border-2 border-white focus:outline-none focus:border-primary placeholder:text-white placeholder-opacity-70" required />
-      </div>
-
-      <!-- Submit Button -->
-      <div>
-        <button type="submit" class="w-full bg-primary text-white py-3 rounded-lg text-lg font-semibold hover:bg-secondary transition duration-300">Subscribe</button>
-      </div>
     </form>
+    
+    <p class="text-sm text-white mt-6 opacity-70 max-w-md mx-auto">We respect your privacy. No spam, just thoughtful updates from the world of art.</p>
   </div>
 </section>
